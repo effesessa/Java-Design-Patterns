@@ -2,6 +2,7 @@
 public abstract class Transformer {
 	
 	public void transform(Person person) {
+		doSomething();
 		doOperation(person);
 		finish();
 	}
