@@ -11,7 +11,6 @@ public class HTMLTransformer extends Transformer {
 		FileWriter fileWriter;
 		try {
 			fileWriter = new FileWriter(new File("person.html"));
-			
 			fileWriter.write("<html>" + "\n" + "<head>" + "</head>" + "\n" + "<body>" + "\n");
 			fileWriter.write("<h1>" + person.getName() + "</h1>" + "\n");
 			fileWriter.write("<h1>" + person.getSurname() + "</h1>" + "\n");
