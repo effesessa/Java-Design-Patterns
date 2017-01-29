@@ -8,10 +8,6 @@ public class CareMementoStack {
 		stackMemento = new Stack<Memento>();
 	}
 	
-	public CareMementoStack(Memento memento) {
-		stackMemento.add(memento);
-	}
-	
 	public Memento pop() {
 		return stackMemento.pop();
 	}
