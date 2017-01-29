@@ -12,7 +12,7 @@ public class ExitCommand implements Command {
 
 	@Override
 	public void execute() {
-		receiver.close();
+		receiver.exit();
 	}
 
 }
